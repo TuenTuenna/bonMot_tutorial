@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37BBC96A4DF194B60268D213 /* Pods_BonMot_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7335D06E18EEE7B9F213C7 /* Pods_BonMot_Tutorial.framework */; };
 		F2AE246625D602F5008F5CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE246525D602F5008F5CF7 /* AppDelegate.swift */; };
 		F2AE246825D602F5008F5CF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE246725D602F5008F5CF7 /* SceneDelegate.swift */; };
 		F2AE246A25D602F5008F5CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE246925D602F5008F5CF7 /* ViewController.swift */; };
 		F2AE246D25D602F5008F5CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AE246B25D602F5008F5CF7 /* Main.storyboard */; };
 		F2AE246F25D602F6008F5CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AE246E25D602F6008F5CF7 /* Assets.xcassets */; };
 		F2AE247225D602F6008F5CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AE247025D602F6008F5CF7 /* LaunchScreen.storyboard */; };
+		F2AE248225D60736008F5CF7 /* BinggraeTaom.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AE247F25D60736008F5CF7 /* BinggraeTaom.otf */; };
+		F2AE248325D60736008F5CF7 /* BinggraeMelona-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AE248025D60736008F5CF7 /* BinggraeMelona-Bold.otf */; };
+		F2AE248425D60736008F5CF7 /* BinggraeMelona.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AE248125D60736008F5CF7 /* BinggraeMelona.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5975AC2A89E768837E47C882 /* Pods-BonMot_Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonMot_Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-BonMot_Tutorial/Pods-BonMot_Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7335D06E18EEE7B9F213C7 /* Pods_BonMot_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonMot_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9259B4A2F3A055CC59A49360 /* Pods-BonMot_Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonMot_Tutorial.release.xcconfig"; path = "Target Support Files/Pods-BonMot_Tutorial/Pods-BonMot_Tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		F2AE246225D602F5008F5CF7 /* BonMot_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonMot_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AE246525D602F5008F5CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AE246725D602F5008F5CF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		F2AE246E25D602F6008F5CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AE247125D602F6008F5CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2AE247325D602F6008F5CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AE247F25D60736008F5CF7 /* BinggraeTaom.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BinggraeTaom.otf; sourceTree = "<group>"; };
+		F2AE248025D60736008F5CF7 /* BinggraeMelona-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BinggraeMelona-Bold.otf"; sourceTree = "<group>"; };
+		F2AE248125D60736008F5CF7 /* BinggraeMelona.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BinggraeMelona.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37BBC96A4DF194B60268D213 /* Pods_BonMot_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B99F131CEE53B601B03B447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5975AC2A89E768837E47C882 /* Pods-BonMot_Tutorial.debug.xcconfig */,
+				9259B4A2F3A055CC59A49360 /* Pods-BonMot_Tutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB92350276AEFF2E50D89DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7335D06E18EEE7B9F213C7 /* Pods_BonMot_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2AE245925D602F5008F5CF7 = {
 			isa = PBXGroup;
 			children = (
 				F2AE246425D602F5008F5CF7 /* BonMot_Tutorial */,
 				F2AE246325D602F5008F5CF7 /* Products */,
+				9B99F131CEE53B601B03B447 /* Pods */,
+				AB92350276AEFF2E50D89DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,7 @@
 		F2AE246425D602F5008F5CF7 /* BonMot_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				F2AE247E25D60721008F5CF7 /* Font */,
 				F2AE246525D602F5008F5CF7 /* AppDelegate.swift */,
 				F2AE246725D602F5008F5CF7 /* SceneDelegate.swift */,
 				F2AE246925D602F5008F5CF7 /* ViewController.swift */,
@@ -67,6 +98,16 @@
 			path = BonMot_Tutorial;
 			sourceTree = "<group>";
 		};
+		F2AE247E25D60721008F5CF7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE248025D60736008F5CF7 /* BinggraeMelona-Bold.otf */,
+				F2AE248125D60736008F5CF7 /* BinggraeMelona.otf */,
+				F2AE247F25D60736008F5CF7 /* BinggraeTaom.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2AE247625D602F6008F5CF7 /* Build configuration list for PBXNativeTarget "BonMot_Tutorial" */;
 			buildPhases = (
+				7E427380EA9F2F37E9464192 /* [CP] Check Pods Manifest.lock */,
 				F2AE245E25D602F5008F5CF7 /* Sources */,
 				F2AE245F25D602F5008F5CF7 /* Frameworks */,
 				F2AE246025D602F5008F5CF7 /* Resources */,
+				0AA7FC6DCF904379A3B3E87F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +167,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AE248425D60736008F5CF7 /* BinggraeMelona.otf in Resources */,
 				F2AE247225D602F6008F5CF7 /* LaunchScreen.storyboard in Resources */,
 				F2AE246F25D602F6008F5CF7 /* Assets.xcassets in Resources */,
+				F2AE248325D60736008F5CF7 /* BinggraeMelona-Bold.otf in Resources */,
 				F2AE246D25D602F5008F5CF7 /* Main.storyboard in Resources */,
+				F2AE248225D60736008F5CF7 /* BinggraeTaom.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA7FC6DCF904379A3B3E87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BonMot_Tutorial/Pods-BonMot_Tutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BonMot_Tutorial/Pods-BonMot_Tutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BonMot_Tutorial/Pods-BonMot_Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E427380EA9F2F37E9464192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BonMot_Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2AE245E25D602F5008F5CF7 /* Sources */ = {
@@ -283,6 +371,7 @@
 		};
 		F2AE247725D602F6008F5CF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5975AC2A89E768837E47C882 /* Pods-BonMot_Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +391,7 @@
 		};
 		F2AE247825D602F6008F5CF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9259B4A2F3A055CC59A49360 /* Pods-BonMot_Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

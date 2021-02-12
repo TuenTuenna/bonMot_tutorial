@@ -1,0 +1,6 @@
+framework module Pods_BonMot_Tutorial {
+  umbrella header "Pods-BonMot_Tutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
